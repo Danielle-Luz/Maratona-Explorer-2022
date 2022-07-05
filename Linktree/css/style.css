@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Fredoka One';
+    background-image: linear-gradient(#2cd997, #1081ab);
+}
+
+img {
+    width: 250px;
+}
+
+h1 {
+    color: #ffcd1e;
+    margin: 5px 0 0;
+    text-align: center;
+    line-height: 30px;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 0;
+    padding: 10px 15vw;
+    border-radius: 8px;
+    box-shadow: 4px 6px 0 #146e94;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.3em;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+li:nth-child(1) {
+    background-color: #ffcd1e;
+}
+
+li:nth-child(1) a {
+    color: #ffcd1e;
+}
+
+li:nth-child(2) {
+    background-color: white;
+}
+
+li:nth-child(2) a{
+    color: white;
+    text-shadow: 2px 0 0 #126995, -2px 0 0 #126995, 0 2px 0 #126995, 0 -2px 0 #126995, 1px 1px #126995, -1px -1px 0 #126995, 1px -1px 0 #126995, -1px 1px 0 #126995;
+}
+
+li:nth-child(3) {
+    background-color: #db74ff;
+}
+
+li:nth-child(3) a {
+    color: #db74ff;
+}
+
+@media(min-width: 720px) {
+    li {
+        padding: 10px 8vw;
+    }
+}
